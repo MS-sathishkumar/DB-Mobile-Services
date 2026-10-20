@@ -1,6 +1,6 @@
 {
   "name": "@ms-sathishkumar/db-mobile-clientservice",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "description": "Reusable HTTP services for React Native applications",
   "type": "module",
