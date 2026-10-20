@@ -1,12 +1,14 @@
 {
-  "name": "db-mobile-clientservice",
-  "version": "1.0.0",
+  "name": "@ms-sathishkumar/db-mobile-clientservice",
+  "version": "1.0.4",
   "private": false,
   "description": "Reusable HTTP services for React Native applications",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "clean": "node -e \"require('node:fs').rmSync('dist', { recursive: true, force: true })\"",
     "build": "npm run clean && tsc -p tsconfig.build.json",
